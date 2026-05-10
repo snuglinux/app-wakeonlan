@@ -1,0 +1,21 @@
+<?php
+
+/////////////////////////////////////////////////////////////////////////////
+// General information
+/////////////////////////////////////////////////////////////////////////////
+
+$app['basename'] = 'wakeonlan';
+$app['version'] = '0.0.1';
+$app['vendor'] = 'Pro777';
+$app['packager'] = 'Pro777';
+$app['license'] = 'GPLv3';
+$app['license_core'] = 'LGPLv3';
+$app['description'] = lang('wakeonlan_description');
+
+/////////////////////////////////////////////////////////////////////////////
+// App name and categories
+/////////////////////////////////////////////////////////////////////////////
+
+$app['name'] = lang('wakeonlan_app_name');
+$app['category'] = lang('base_category_network');
+$app['subcategory'] = lang('base_subcategory_infrastructure');
